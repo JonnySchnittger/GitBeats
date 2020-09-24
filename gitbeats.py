@@ -29,7 +29,7 @@ def main(argv):
       elif opt in ('-t', '--tempo'):
          tempo = int(arg)
       elif opt in ('-o', '--output-filename'):
-         filename = int(arg)
+         filename = arg
 
    print('username: {}'.format(usernames))
    print('proxy: {}'.format(proxy))
